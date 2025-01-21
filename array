@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+void getdetails(int n, int a){
+    string Names[3]={"jansen","Lloyd","Harold"};
+    int age[3]={24,25,25};
+    cout<<"the name is "<< Names[n]<<endl;
+    cout<<"the age is "<< age[a]<<endl;
+}
+int main(){
+    getdetails(0,0);
+    return 0;
+}
